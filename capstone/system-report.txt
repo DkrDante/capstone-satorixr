@@ -1,0 +1,57 @@
+===== SYSTEM REPORT =====
+
+===== OS & KERNEL =====
+Darwin Yashs-MacBook-Pro.local 25.6.0 Darwin Kernel Version 25.6.0: Sat Jul 11 15:25:26 PDT 2026; root:xnu-12377.161.13~4/RELEASE_ARM64_T6030 arm64
+
+===== DISK USAGE =====
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   926Gi    12Gi   196Gi     6%    459k  2.1G    0%   /
+devfs            208Ki   208Ki     0Bi   100%     720     0  100%   /dev
+/dev/disk3s6     926Gi   5.0Gi   196Gi     3%       5  2.1G    0%   /System/Volumes/VM
+/dev/disk3s2     926Gi    17Gi   196Gi     8%    2.2k  2.1G    0%   /System/Volumes/Preboot
+/dev/disk3s4     926Gi   765Mi   196Gi     1%     543  2.1G    0%   /System/Volumes/Update
+/dev/disk1s2     500Mi   6.0Mi   478Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1     500Mi   5.6Mi   478Mi     2%      35  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     500Mi   6.1Mi   478Mi     2%      97  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5     926Gi   693Gi   196Gi    78%    4.5M  2.1G    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+/dev/disk2s1     5.0Gi   2.1Gi   2.8Gi    44%      67   30M    0%   /System/Volumes/Update/SFR/mnt1
+/dev/disk3s1     926Gi    12Gi   196Gi     6%    459k  2.1G    0%   /System/Volumes/Update/mnt1
+
+===== MEMORY USAGE =====
+Mach Virtual Memory Statistics: (page size of 16384 bytes)
+Pages free:                                    34156.
+Pages active:                                 351372.
+Pages inactive:                               339930.
+Pages speculative:                             10749.
+Pages throttled:                                   0.
+Pages wired down:                             194665.
+Pages purgeable:                                9545.
+"Translation faults":                     2955345625.
+Pages copy-on-write:                        98871403.
+Pages zero filled:                        7052038336.
+Pages reactivated:                         383640098.
+Pages purged:                               71199325.
+File-backed pages:                            213132.
+Anonymous pages:                              488919.
+Pages stored in compressor:                   936460.
+Pages occupied by compressor:                 195153.
+Decompressions:                            349147551.
+Compressions:                              417208288.
+Pageins:                                    85240642.
+Pageouts:                                    1116278.
+Swapins:                                     3199226.
+Swapouts:                                    4478174.
+
+===== TOP 10 CPU PROCESSES =====
+91056 yashvardhan       82.1  0.8 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/151.0.7922.138/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer)
+77337 yashvardhan       41.2  3.8 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+ 2790 yashvardhan       28.6  0.4 /usr/libexec/spotlightknowledged.updater
+84083 yashvardhan       28.3  0.4 /Users/yashvardhan/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/steam_osx
+89674 yashvardhan       13.2  3.9 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/151.0.7922.138/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer)
+  614 _windowserver     12.9  0.6 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+86265 yashvardhan       11.2  0.6 /Applications/Ghostty.app/Contents/MacOS/ghostty
+89666 yashvardhan       10.4  1.0 /Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/151.0.7922.138/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer)
+  631 _coreaudiod        4.9  0.2 /usr/sbin/coreaudiod
+  580 root               4.8  0.0 /usr/libexec/xprotectd
+ 1006 yashvardhan        4.6  0.1 /System/Library/PrivateFrameworks/BiomeStreams.framework/Support/BiomeAgent

@@ -1,0 +1,3 @@
+[2026-08-21 20:47:36] SUCCESS: archived ./capstone/data → backup-2026-08-21-2047.tar.gz
+[2026-09-16 11:05:06] SUCCESS: archived ./data → backup-2026-09-16-1105.tar.gz
+[2026-09-16 11:05:16] ERROR: source directory does not exist: ./does-not-exist

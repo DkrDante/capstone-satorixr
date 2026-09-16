@@ -1,0 +1,5 @@
+[2026-08-21 20:48:12] OK: all metrics within thresholds
+[2026-09-16 11:04:49] ALERT: load average is at 5.22, threshold is 4.0
+[2026-09-16 11:04:49] ALERT: running processes are at 514, threshold is 300
+[2026-09-16 11:08:10] OK: all metrics within thresholds
+[2026-09-16 11:08:10] ALERT: running processes are at 522, threshold is 300
